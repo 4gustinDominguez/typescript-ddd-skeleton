@@ -1,5 +1,5 @@
-import { TournamentRepository } from '../../../../../src/Contexts/Mooc/Tournaments/domain/TournamentRepository';
-import { Tournament } from '../../../../../src/Contexts/Mooc/Tournaments/domain/Tournament';
+import { TournamentRepository } from '../../../../../src/Contexts/Tournaments/domain/TournamentRepository';
+import { Tournament } from '../../../../../src/Contexts/Tournaments/domain/Tournament';
 
 export class TournamentRepositoryMock implements TournamentRepository {
   private mockSave = jest.fn();

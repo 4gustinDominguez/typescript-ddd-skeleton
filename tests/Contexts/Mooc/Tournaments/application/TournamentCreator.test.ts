@@ -1,5 +1,5 @@
-import { TournamentCreator } from '../../../../../src/Contexts/Mooc/Tournaments/application/TournamentCreator';
-import { Tournament } from '../../../../../src/Contexts/Mooc/Tournaments/domain/Tournament';
+import { TournamentCreator } from '../../../../../src/Contexts/Tournaments/application/TournamentCreator';
+import { Tournament } from '../../../../../src/Contexts/Tournaments/domain/Tournament';
 import { TournamentRepositoryMock } from '../__mocks__/TournamentRepositoryMock';
 
 let repository: TournamentRepositoryMock;

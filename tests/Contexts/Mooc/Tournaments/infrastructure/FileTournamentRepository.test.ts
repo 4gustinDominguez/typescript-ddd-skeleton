@@ -1,5 +1,5 @@
-import { Tournament } from '../../../../../src/Contexts/Mooc/Tournaments/domain/Tournament';
-import { FileTournamentRepository } from '../../../../../src/Contexts/Mooc/Tournaments/infrastructure/persistence/FileTournamentRepository';
+import { Tournament } from '../../../../../src/Contexts/Tournaments/domain/Tournament';
+import { FileTournamentRepository } from '../../../../../src/Contexts/Tournaments/infrastructure/persistence/FileTournamentRepository';
 
 describe('FileTournamentRepository', () => {
 
