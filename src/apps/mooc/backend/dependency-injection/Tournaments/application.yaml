@@ -1,0 +1,9 @@
+services:
+
+  Tournament.application.TournamentCreator:
+    class: ../../../../../Contexts/Tournaments/application/TournamentCreator
+    arguments: ["@Mooc.Tournament.domain.TournamentRepository"]
+
+  Mooc.Tournament.domain.TournamentRepository:
+    class: ../../../../../Contexts/Tournaments/infrastructure/persistence/FileTournamentRepository
+    arguments: [""]    
