@@ -7,9 +7,10 @@ import container from '../dependency-injection';
 export const register = (router: Router) => {
     const reqSchema = [
         body('id').exists().isString(),
-        body('name').exists().isString(),
+        body('name').exists().isString()
     ];
 
-  const controller:TournamentPutController  = container.get('Apps.mooc.controllers.TournamentPutController');
+  const controller: TournamentPutController = container.get('Apps.mooc.controllers.TournamentPutController');
+
   router.put('/tournament/:id', reqSchema, validateReqSchema, (req: Request, res: Response) => controller.run(req, res));
 };
